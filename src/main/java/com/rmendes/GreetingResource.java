@@ -13,4 +13,12 @@ public class GreetingResource {
     public String hello() {
         return "Hello from RESTEasy Reactive";
     }
+    
+    
+    @GET
+    @Path("/dtDay")
+    @Produces(MediaType.TEXT_PLAIN)
+    public String dataTech() {
+        return "Hello Serjão!!!";
+    }
 }
