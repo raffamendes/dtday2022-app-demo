@@ -16,9 +16,9 @@ public class GreetingResource {
     
     
     @GET
-    @Path("/dtDay")
+    @Path("/dtday")
     @Produces(MediaType.TEXT_PLAIN)
     public String dataTech() {
-        return "Hello Serjão!!!";
+        return "Hello Turma!!!";
     }
 }
